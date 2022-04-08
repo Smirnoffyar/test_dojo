@@ -798,12 +798,12 @@ header {
     }
 
     .header_center_header {
-        width: 500px;
-
+        width: 90%;
+        height: 130px;
     }
 
     .header_center_text {
-        width: 500px;
+        width: 90%;
     }
 
     .premium_service_benefits {
@@ -812,7 +812,7 @@ header {
     }
 
     .privilege {
-        height: 700px;
+        height: 90%;
     }
 
     .privilege_head {        
@@ -910,6 +910,71 @@ header {
     }
 }
 
+@media (max-width: 580px) {
+    .container {
+        margin: 0 auto;
+    }
+
+    .header_content {
+        display: block;
+        text-align: center;
+                
+    }
+
+    .telephone {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header_center h1 {
+        font-size: 30px;
+    }
+
+    .header_center_text p {
+        font-size: 20px;
+    }
+
+    .premium {
+        width: 90%;
+    }
+
+    .parking {
+        width: 90%;
+    }
+
+    .free_parking {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .meeting form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .application_form {
+        display: block;
+    }
+
+    .application_send_form {
+        width: 80%;
+    }
+
+    .footer_container {
+        display: block;
+        text-align: center;
+    }
+
+    .footer_contact p {
+        display: inline-block;
+    }
+
+    
+    
+}
+
+
+
 .popup_filter {
     background-color: rgba(0, 0, 0, 0.82);
     position: fixed;
@@ -921,14 +986,14 @@ header {
     display: none;
 }
 
-.popup {
-    width: 500px;
+.popup { 
+    width: 200px;   
     text-align: center;
     border: #F8BE4D solid 3px;
     border-radius: 5px;
     position: fixed;
     top: 50%;
-    left: 50%;
+    left: 40%;    
     z-index: 100;
     display: none;
     color: #FFFFFF;
