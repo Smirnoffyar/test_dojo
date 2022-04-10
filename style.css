@@ -811,6 +811,11 @@ header {
         display: inline-block;
     }
 
+    .benefits_item {
+        text-align: center;
+    }
+    
+
     .privilege {
         height: 90%;
     }
@@ -849,7 +854,19 @@ header {
     .application_order {
         margin: 0 auto;
         display: inline-block;
-    }    
+    } 
+    
+    .application_order_num {
+        text-align: center;
+    }
+
+    .application_order_num span:after {
+        margin: 25px auto 38px;
+    }
+
+    .application_item {
+        text-align: center;
+    }
 
     .meeting form {
         margin: 0 auto;
@@ -934,6 +951,10 @@ header {
         font-size: 20px;
     }
 
+    .header_form {
+        width: 100%;
+    }
+
     .premium {
         width: 90%;
     }
@@ -952,12 +973,25 @@ header {
         margin: 0 auto;
     }
 
+    .application_form_img {
+        text-align: center;
+    }
+
     .application_form {
         display: block;
     }
 
     .application_send_form {
-        width: 80%;
+        width: 80%;   
+        margin: 0 auto;     
+    }
+
+    .application_send_form h2 {
+        text-align: center;
+    }
+    
+    .application_send_form form {
+        width: 100%;
     }
 
     .footer_container {
@@ -982,7 +1016,8 @@ header {
 }
 
 .popup { 
-    width: 200px;   
+    width: 200px;
+    padding: 10px;   
     text-align: center;
     border: #F8BE4D solid 3px;
     border-radius: 5px;
